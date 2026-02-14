@@ -99,6 +99,11 @@ View the app at: `http://127.0.0.1:5000`
 * **IoT Expansion:** Real-time vital monitoring via wearable device integration for proactive alerts.
 
 ---
+## 📄 Project Documentation
+
+For a detailed breakdown of the methodology, dataset, and system architecture, please refer to the full project report:
+
+[Download Project Report (PDF)](./docs/Project_Report.pdf)
 
 **Author:** Bollaboina Vamshi yadav
 
