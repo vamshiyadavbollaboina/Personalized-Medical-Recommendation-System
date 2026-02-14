@@ -1,23 +1,20 @@
-This is a comprehensive GitHub-ready `README.md` that incorporates your technical results, project structure, and the research references you requested.
+# 🩺 Personalized Medical Recommendation System
 
-```markdown
-# Personalized Medical Recommendation System
-
-An AI-driven diagnostic platform designed to bridge the gap between symptom analysis and actionable recovery. The system utilizes a high-precision machine learning engine to identify diseases and provides users with comprehensive, real-time health guides via a Flask-based web interface.
+An AI-driven diagnostic platform that identifies diseases with high precision and provides automated, 360° health recovery guides including medications, diets, and workouts.
 
 ---
 
-## 🚀 Core Features
+## 🚀 Key Highlights
 
-* **High-Precision Diagnostics:** Employs a Support Vector Classifier (SVC) to deliver a verified predictive accuracy of **98.35%**.
-* **360° Health Integration:** Automatically generates structured health guides covering disease descriptions, precautions, medications, diets, and workouts.
-* **Real-Time Dashboard:** A responsive Flask web application that processes user symptoms and delivers results instantaneously.
+* **High-Precision Engine:** Achieves a verified **98.35% accuracy** using a Support Vector Classifier (SVC).
+* **Integrated Health Guides:** Automates the delivery of descriptions, precautions, medications, diets, and workouts in one dashboard.
+* **Real-Time Deployment:** Built with a responsive **Flask** web application for instantaneous symptom-to-disease mapping.
 
 ---
 
-## 📊 Model Performance & Benchmarking
+## 📊 Model Performance Benchmarking
 
-The system's diagnostic engine was developed by benchmarking multiple algorithms to ensure clinical-grade reliability across **41 distinct disease classes**.
+The system was developed by evaluating multiple machine learning algorithms across 41 distinct disease classes.
 
 | Model | Accuracy |
 | :--- | :--- |
@@ -31,28 +28,65 @@ The system's diagnostic engine was developed by benchmarking multiple algorithms
 
 ---
 
-## 🛠️ Technical Stack & Libraries
+## 🛠️ Tech Stack & Libraries
 
-### **Backend & Logic**
-* **Python:** The core programming language.
-* **Scikit-learn:** Used for implementing **SVC**, **Random Forest**, and **KNN** models.
-* **Pandas & NumPy:** For data manipulation, cleaning, and matrix operations.
-* **Flask:** The web framework used to deploy the model and handle real-time requests.
+* **Language:** Python 3.10+
+* **Machine Learning:** `scikit-learn`, `pandas`, `numpy`
+* **Web Framework:** `Flask`
+* **Frontend:** HTML5, CSS3, Bootstrap 5
+* **Serialization:** `pickle` (for model deployment)
 
-### **Frontend**
-* **HTML5 / CSS3:** Structure and custom styling.
-* **Bootstrap:** For a responsive, mobile-friendly dashboard layout.
+---
+
+## 💻 Installation & Setup
+
+### 1. Clone the Project
+```bash
+git clone [https://github.com/yourusername/medical-recommendation-system.git](https://github.com/yourusername/medical-recommendation-system.git)
+cd medical-recommendation-system
+
+```
+
+### 2. Create Virtual Environment
+
+```bash
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# macOS/Linux
+python3 -m venv venv
+source venv/bin/activate
+
+```
+
+### 3. Install Required Libraries
+
+```bash
+pip install flask scikit-learn pandas numpy
+
+```
+
+### 4. Run the Application
+
+```bash
+python app.py
+
+```
+
+View the app at: `http://127.0.0.1:5000`
 
 ---
 
 ## 📂 Project Structure
+
 ```text
-├── app.py              # Flask Application & Routing
-├── models/             # Trained .pkl files (SVC, RF, etc.)
-├── data/               # Training and Testing datasets
-├── templates/          # HTML files (index.html, results.html)
-├── static/             # CSS, JS, and Images
-└── requirements.txt    # List of required libraries
+├── app.py              # Flask Server & Routes
+├── models/             # Trained .pkl model files
+├── data/               # Symptom & Disease datasets
+├── templates/          # index.html, result.html
+├── static/             # CSS and Images
+└── requirements.txt    # Library dependencies
 
 ```
 
@@ -60,34 +94,18 @@ The system's diagnostic engine was developed by benchmarking multiple algorithms
 
 ## 🔮 Future Scope
 
-* **Deep Learning Transition:** Upgrading from SVC to **Artificial Neural Networks (ANNs)** or Transformers to capture complex, non-linear correlations.
-* **Clinical Integration:** Implementing **RESTful APIs (HL7 FHIR)** for Hospital Management System (HMS) synchronization.
-* **Cloud-Native Scalability:** Migrating to **AWS/Azure** for HIPAA-compliant scaling and encrypted patient history tracking.
-* **IoT & Mobile Expansion:** Developing a native **iOS/Android app** integrated with wearable IoT devices to monitor real-time vitals.
+* **Deep Learning:** Transitioning to **ANNs/Transformers** to exceed current accuracy benchmarks.
+* **Clinical Integration:** Implementing **HL7 FHIR APIs** for Hospital Management System (HMS) sync.
+* **IoT Expansion:** Real-time vital monitoring via wearable device integration for proactive alerts.
 
 ---
 
-## 📚 References & Documentation
-
-### **Official Documentation**
-
-* **Scikit-learn (SVM):** [scikit-learn.org/stable/modules/svm.html](https://scikit-learn.org/stable/modules/svm.html)
-* **Flask Framework:** [flask.palletsprojects.com](https://flask.palletsprojects.com/)
-
-### **Research Papers**
-
-* **Hassan, B. M., et al. (2026).** *"Personalized Medical Recommendation System with Machine Learning."* **Neural Computing and Applications**.
-* **Revankar, R. S., & Preethi, K. P. (2025).** *"Personalized-Healthcare and Medicine Recommendation System Using Machine Learning."* **IJISRT**.
-* **Nainar, M. A., & Sharvesh, R. (2025).** *"Medicine Recommendation System Using Machine Learning."* **IJIRT**.
-
----
-
-## 🔗 Project Links
-
-* **GitHub Repository:** [Insert your link here]
+**Author:** Bollaboina Vamshi yadav
 
 ```
 
-**Would you like me to generate the content for the `requirements.txt` file so you can include it in your repository?**
+***
+
+**Would you like me to generate a `requirements.txt` file with the specific version numbers to ensure your GitHub project is ready for deployment?**
 
 ```
