@@ -102,10 +102,3 @@ View the app at: `http://127.0.0.1:5000`
 
 **Author:** Bollaboina Vamshi yadav
 
-```
-
-***
-
-**Would you like me to generate a `requirements.txt` file with the specific version numbers to ensure your GitHub project is ready for deployment?**
-
-```
